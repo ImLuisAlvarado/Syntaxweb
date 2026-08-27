@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Cinzel:wght@700&family=Inter:wght@400;600;800;900&family=Playfair+Display:ital,wght@0,700;1,400&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-syntax-purple: #853A7B;
+  --color-syntax-dark-purple: #723168;
+  --color-syntax-black: #0d0d0d;
+  --color-syntax-charcoal: #1a1a1a;
+  --color-syntax-gray: #2b2b2b;
+  --color-syntax-yellow: #ffd700;
+
+  --font-sans: 'Inter', sans-serif;
+  --font-syntax-title: 'Anton', sans-serif;
+  --font-cinzel: 'Cinzel', serif;
+
+  --animate-spin-slow: spin-slow 3s linear infinite;
+  --animate-float: float 4s ease-in-out infinite;
+}
+
+@keyframes spin-slow {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+body {
+  background-color: #0d0d0d;
+  color: #f3f4f6;
+  font-family: 'Inter', sans-serif;
+  overflow-x: hidden;
+}
+
+.syntax-title {
+  font-family: 'Anton', sans-serif;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.cinzel-font {
+  font-family: 'Cinzel', serif;
+}
+
+.syntax-slash {
+  clip-path: polygon(0 0, 100% 10%, 100% 100%, 0 90%);
+}
+
+.syntax
+
+-card-clip {
+  clip-path: polygon(0 0, 100% 5%, 95% 100%, 5% 95%);
+}
+
+/* Scanlines overlay for meta UI feeling */
+.scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%,
+    rgba(0, 0, 0, 0.25) 50%
+  ), linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 0.03),
+    rgba(0, 255, 0, 0.01),
+    rgba(0, 0, 255, 0.03)
+  );
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0d0d0d;
+}
+::-webkit-scrollbar-thumb {
+  background: #9b428e;
+  border-radius: 4px;
+}
