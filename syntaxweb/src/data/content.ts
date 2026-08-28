@@ -22,7 +22,13 @@ import news2 from '../assets/779004586_1080238814654918_7701303452473878079_n.jp
 import news3 from '../assets/784181934_2258797541631951_3274197800787725644_n.jpg'
 
 
-import cover1 from '../assets/Syntax_Logo_Perfil.avif'
+import cover1 from '../assets/tdsofm.avif'
+import cover2 from '../assets/megalomaniac.avif'
+import cover3 from '../assets/Deftones_-_private_music.avif'
+import cover4 from '../assets/capa-66.avif'
+import cover5 from '../assets/maldita-vecindad-y-los-hijos-del-quinto-patio-el-circo.avif'
+import cover6 from '../assets/Mon_Laferte-La_Trenza.avif'
+
 import acyl from '../assets/pink-floyd-any-colour-you-like-2023-remaster-fgn-212.opus'
 import megalomaniac from '../assets/kmfdm-megalomaniac-u-3-edqb.opus'
 import itabyatt from '../assets/deftones-i-think-about-you-all-the-time-visualizer-z-1-xtda.opus'
@@ -171,45 +177,45 @@ export const tracks: Track[] = [
     artist: 'KMFDM',
     src: megalomaniac,
     label: 'Disco 01 • Lado A',
-    vinylColor: cover1,
+    vinylColor: cover2,
     note: '¿Necesitas un subidón? deja que esta canción te haga sentir como un megalomaniaco',
-    cover: cover1
+    cover: cover2
   },
   {
     title: 'I Think About You All The Time',
     artist: 'Deftones',
     src: itabyatt,
     label: 'Disco 01 • Lado A',
-    vinylColor: cover1,
+    vinylColor: cover3,
     note: 'Siempre estoy pensando en ti SyntaxError in line 943...',
-    cover: cover1
+    cover: cover3
   },
   {
     title: 'Xtal',
     artist: 'Aphex Twin',
     src: xtal,
     label: 'Disco 01 • Lado B',
-    vinylColor: cover1,
+    vinylColor: cover4,
     note: 'Esta canción es como hacer un código sin errores A LA PRIMERA',
-    cover: cover1
+    cover: cover4
   },
   {
     title: 'Un Poco de Sangre',
     artist: 'La Maldita Vecindad y los Hijos del Quinto Patio',
     src: ups,
     label: 'Disco 01 • Lado B',
-    vinylColor: cover1,
+    vinylColor: cover5,
     note: 'No está probado que sangrar vaya a mejorar tu software... Lo siento',
-    cover: cover1
+    cover: cover5
   },
   {
     title: 'Flaco',
     artist: 'Mon Laferte',
     src: flaco,
     label: 'Disco 01 • Lado B',
-    vinylColor: cover1,
+    vinylColor: cover6,
     note: 'Dedicada a todos esos proyectos que dejamos sin acabar. Siempre pienso en ellos antes de dormir',
-    cover: cover1
+    cover: cover6
   },
 ];
 
