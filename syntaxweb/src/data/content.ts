@@ -14,7 +14,7 @@ export const CORRECT_PASSWORD = 'syntax-downpour-contact-avatar-zero-paranoid-ma
 
 import slider1 from '../assets/slider1.avif'
 import slider2 from '../assets/slider2.avif'
-import slider3 from '../assets/Syntax_Logo_Perfil.png'
+import slider3 from '../assets/Syntax_Logo_Perfil.avif'
 
 
 import news1 from '../assets/786916426_937135142112447_7931644304091578690_n.jpg'
