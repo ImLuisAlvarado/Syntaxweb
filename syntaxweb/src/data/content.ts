@@ -163,7 +163,7 @@ export const tracks: Track[] = [
     src: acyl,
     label: 'Disco 01 • Lado A',
     vinylColor: cover1,
-    note: 'La canción que sonaba el día que cruzamos miradas.',
+    note: 'Para diseñar; escoge el color que quieras ;)',
     cover: cover1
   },
   {
@@ -172,7 +172,7 @@ export const tracks: Track[] = [
     src: megalomaniac,
     label: 'Disco 01 • Lado A',
     vinylColor: cover1,
-    note: 'El ritmo que bailamos bajo la luz de la luna.',
+    note: '¿Necesitas un subidón? deja que esta canción te haga sentir como un megalomaniaco',
     cover: cover1
   },
   {
@@ -181,7 +181,7 @@ export const tracks: Track[] = [
     src: itabyatt,
     label: 'Disco 01 • Lado A',
     vinylColor: cover1,
-    note: 'El ritmo que bailamos bajo la luz de la luna.',
+    note: 'Siempre estoy pensando en ti SyntaxError in line 943...',
     cover: cover1
   },
   {
@@ -190,7 +190,7 @@ export const tracks: Track[] = [
     src: xtal,
     label: 'Disco 01 • Lado B',
     vinylColor: cover1,
-    note: 'El ritmo que bailamos bajo la luz de la luna.',
+    note: 'Esta canción es como hacer un código sin errores A LA PRIMERA',
     cover: cover1
   },
   {
@@ -199,7 +199,7 @@ export const tracks: Track[] = [
     src: ups,
     label: 'Disco 01 • Lado B',
     vinylColor: cover1,
-    note: 'El ritmo que bailamos bajo la luz de la luna.',
+    note: 'No está probado que sangrar vaya a mejorar tu software... Lo siento',
     cover: cover1
   },
   {
@@ -208,7 +208,7 @@ export const tracks: Track[] = [
     src: flaco,
     label: 'Disco 01 • Lado B',
     vinylColor: cover1,
-    note: 'El ritmo que bailamos bajo la luz de la luna.',
+    note: 'Dedicada a todos esos proyectos que dejamos sin acabar. Siempre pienso en ellos antes de dormir',
     cover: cover1
   },
 ];
