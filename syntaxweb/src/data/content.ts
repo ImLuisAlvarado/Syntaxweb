@@ -223,14 +223,32 @@ export const events: Events[] = [
   {
     number: '01',
     icon: 'fa-solid fa-music',
-    title: 'Rompe Hielo',
+    title: 'Evento del día de independencia',
     quote:
-      'Un evento que viene a romperla, posiblemente uno de los más elaborados que se hayan realizado para la carrera con dos actividades importantes',
+      'Evento conmemorativo del día de independencia.',
     status: 'Estado: EN PROCESO',
-    date: 'SEPTIEMBRE'
+    date: '15 DE SEPTIEMBRE, 10:00 AM'
   },
   {
     number: '02',
+    icon: 'fa-solid fa-music',
+    title: 'Torneo de Clash Royale',
+    quote:
+      'Torneo de Clash Royale, con posibles premios para los ganadores y un ambiente relajado.',
+    status: 'Estado: EN PROCESO',
+    date: '22 DE SEPTIEMBRE, 10:00 AM - 11:30 AM'
+  },
+  {
+    number: '03',
+    icon: 'fa-solid fa-music',
+    title: "'Escape Room'",
+    quote:
+      'Un evento de tipo escape room, con desafíos y rompecabezas para resolver en equipo.',
+    status: 'Estado: EN PROCESO',
+    date: '25 DE SEPTIEMBRE, 10:00 AM - 12:00 PM'
+  },
+  {
+    number: '04',
     icon: 'fa-solid fa-guitar',
     title: 'Semana ISW',
     quote:
