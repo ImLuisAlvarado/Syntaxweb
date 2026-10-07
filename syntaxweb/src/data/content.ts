@@ -12,9 +12,9 @@ export const END_DATE = new Date('2026-12-18T00:00:00');
 
 export const CORRECT_PASSWORD = 'syntax-downpour-contact-avatar-zero-paranoid-manifesto'
 
-import slider1 from '../assets/slider1.avif'
-import slider2 from '../assets/slider2.avif'
-import slider3 from '../assets/Syntax_Logo_Perfil.avif'
+import slider1 from '../assets/Syntax_Logo_Perfil.avif'
+import slider2 from '../assets/WhatsApp Image 2026-10-07 at 13.27.27.jpeg'
+import slider3 from '../assets/1773172061874.jpg'
 
 
 import news1 from '../assets/786916426_937135142112447_7931644304091578690_n.jpg'
@@ -44,7 +44,7 @@ export const slides: Slide[] = [
     fallback: 'https://placehold.co/800x600/1a1a1a/e60012?text=Amor+1',
     alt: 'Momento 1',
     fileTag: 'Archivo #01',
-    title: 'Pi-ka-chu',
+    title: 'Sociedad SYNTAX',
   },
   {
     id: 2,
@@ -53,7 +53,7 @@ export const slides: Slide[] = [
     fallback: 'https://placehold.co/800x600/1a1a1a/e60012?text=Amor+2',
     alt: 'Momento 2',
     fileTag: 'Archivo #02',
-    title: 'Hey Baby Girl',
+    title: 'Evento de Clash Royale',
   },
   {
     id: 3,
@@ -62,7 +62,7 @@ export const slides: Slide[] = [
     fallback: 'https://placehold.co/800x600/1a1a1a/e60012?text=Amor+3',
     alt: 'Momento 3',
     fileTag: 'Archivo #03',
-    title: 'Bajo Las Estrellas',
+    title: 'Curso de Desarrolo con IA',
   },
 ];
 
@@ -214,7 +214,7 @@ export const tracks: Track[] = [
     src: flaco,
     label: 'Disco 01 • Lado B',
     vinylColor: cover6,
-    note: 'Dedicada a todos esos proyectos que dejamos sin acabar. Siempre pienso en ellos antes de dormir',
+    note: 'Dedicada a todos esos proyectos que dejamos sin acabar.',
     cover: cover6
   },
 ];
@@ -222,33 +222,6 @@ export const tracks: Track[] = [
 export const events: Events[] = [
   {
     number: '01',
-    icon: 'fa-solid fa-music',
-    title: 'Evento del día de independencia',
-    quote:
-      'Evento conmemorativo del día de independencia.',
-    status: 'Estado: EN PROCESO',
-    date: '15 DE SEPTIEMBRE, 10:00 AM'
-  },
-  {
-    number: '02',
-    icon: 'fa-solid fa-music',
-    title: 'Torneo de Clash Royale',
-    quote:
-      'Torneo de Clash Royale, con posibles premios para los ganadores y un ambiente relajado.',
-    status: 'Estado: EN PROCESO',
-    date: '22 DE SEPTIEMBRE, 10:00 AM - 11:30 AM'
-  },
-  {
-    number: '03',
-    icon: 'fa-solid fa-music',
-    title: "'Escape Room'",
-    quote:
-      'Un evento de tipo escape room, con desafíos y rompecabezas para resolver en equipo.',
-    status: 'Estado: EN PROCESO',
-    date: '25 DE SEPTIEMBRE, 10:00 AM - 12:00 PM'
-  },
-  {
-    number: '04',
     icon: 'fa-solid fa-guitar',
     title: 'Semana ISW',
     quote:
@@ -259,59 +232,44 @@ export const events: Events[] = [
 ];
 
 export const timelineEvents: TimelineEvent[] = [
-  {
-    dateLabel: 'Día 01 • El Inicio',
-    title: 'Nuestra Primera Conversación',
-    text: 'Bajo las luces titilantes de la ciudad, un saludo casual desató una charla interminable que cambió nuestros destinos para siempre.',
-  },
-  {
-    dateLabel: 'Mes 03 • El Salto',
-    title: 'La Primera Cita Oficial',
-    text: 'Nervios, sonrisas cómplices y un café que se prolongó por horas mientras descubríamos cuánto teníamos en común.',
-  },
-  {
-    dateLabel: 'Año 01 • Consolidación',
-    title: 'Nuestro Primer Viaje Juntos',
-    text: 'Maletas listas, mapas explorados y la certeza absoluta de que quiero viajar contigo a cualquier rincón del mundo.',
-  },
 ];
 
 export const tales: Tale[] = [
   {
-    universe: 'Tercer sábado de septiembre',
-    title: 'Día del Software Libre',
-    text: 'Se conmemora el tercer sábado de septiembre (por ejemplo, el 20 de septiembre en 2025), fecha elegida por su simetría visual (3.14, la primera cifra de Pi) en honor al Día del Programador. ',
+    universe: '11 de octubre de 1968',
+    title: 'Nacimiento del término "Ingeniería de Software"',
+    text: 'El informático alemán Fritz Bauer utiliza por primera vez el término "Ingeniería de Software" durante una conferencia de la OTAN, estableciendo la disciplina formal para el desarrollo de software confiable y eficiente. ',
     reality: '#01',
   },
   {
-    universe: '27 de septiembre de 1983',
-    title: 'Anuncio del Proyecto GNU',
-    text: 'El 27 de septiembre de 1983, Richard Stallman anunció el proyecto GNU en la lista de correo net.unix-wizards, marcando el inicio formal del movimiento por el software libre y el desarrollo del kernel Linux años después.',
+    universe: '11 de octubre de 1979',
+    title: 'Lanzamiento de VisiCalc',
+    text: 'Dan Bricklin y Bob Frankston lanzan VisiCalc, la primera hoja de cálculo electrónica para computadoras personales (Apple II), considerada la primera "killer app" que transformó las PC en herramientas empresariales esenciales. ',
     reality: '#02',
   },
   {
-    universe: '17 de septiembre de 1991',
-    title: 'Lanzamiento de Linux:',
-    text: 'Linus Torvalds liberó la versión 0.01 del kernel de Linux, el sistema operativo de código abierto más influyente de la historia.',
-    reality: '#01',
+    universe: '14 de octubre de 1985',
+    title: 'Publicación de "The C++ Programming Language"',
+    text: 'Bjarne Stroustrup publica el libro "The C++ Programming Language", ayudando a popularizar el lenguaje y sus mejoras en programación orientada a objetos. ',
+    reality: '#03',
   },
   {
-    universe: '4 de septiembre de 1998',
-    title: 'Creación de Google',
-    text: 'Larry Page y Sergey Brin fundaron oficialmente Google Inc., revolucionando la búsqueda de información en la web. ',
-    reality: '#01',
+    universe: '21 de octubre de 2008',
+    title: 'Creación de Android',
+    text: 'Google lanza oficialmente Android, su sistema operativo móvil basado en Linux, marcando el inicio de su dominio en el mercado de dispositivos móviles.',
+    reality: '#04',
   },
   {
-    universe: '9 de septiembre',
-    title: 'Día del Tester de Software',
-    text: 'Se celebra internacionalmente para destacar la importancia de la calidad y las pruebas en el ciclo de desarrollo de software. ',
-    reality: '#01',
+    universe: '12 de octubre',
+    title: 'Día Internacional contra la Gestión Digital de Restricciones (DRM)',
+    text: ' Se observa el Día Internacional contra la Gestión Digital de Restricciones (DRM), una efeméride dedicada a visibilizar las limitaciones que esta tecnología impone a los usuarios de contenido multimedia digital',
+    reality: '#05',
   },
   {
-    universe: '18 de septiembre de 1959',
-    title: 'Nacimiento de COBOL',
-    text: 'El 18 de septiembre de 1959 se estableció formalmente el estándar COBOL, uno de los lenguajes de programación más antiguos y utilizados en el sector financiero y gubernamental.',
-    reality: '#01',
+    universe: '11 de Octubre',
+    title: 'Día Internacional de Ada Lovelace',
+    text: 'Se conmemora el Día Internacional de Ada Lovelace, fundado en 2009 para honrar a la primera programadora de la historia y promover la participación de las mujeres en carreras STEM.',
+    reality: '#06',
   },
 ];
 
