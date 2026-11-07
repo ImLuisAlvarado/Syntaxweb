@@ -8,7 +8,7 @@ import type {
   Tale,
 } from '../types';
 
-export const END_DATE = new Date('2026-12-18T00:00:00');
+export const END_DATE = new Date('2026-12-05T00:00:00');
 
 export const CORRECT_PASSWORD = 'syntax-downpour-contact-avatar-zero-paranoid-manifesto'
 
