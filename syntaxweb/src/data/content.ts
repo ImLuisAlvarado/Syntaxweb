@@ -62,7 +62,7 @@ export const slides: Slide[] = [
     fallback: 'https://placehold.co/800x600/1a1a1a/e60012?text=Amor+3',
     alt: 'Momento 3',
     fileTag: 'Archivo #03',
-    title: 'Curso de Desarrolo con IA',
+    title: 'Curso de Desarrollo con IA',
   },
 ];
 
